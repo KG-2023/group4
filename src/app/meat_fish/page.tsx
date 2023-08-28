@@ -15,7 +15,7 @@ const MeatFish = () => {
           is carefully crafted to bring you a delightful culinary experience,
           showcasing a wide range of traditional dishes made with love and
           expertise. From savory appetizers to satisfying main courses,
-          we&rsquo;re here to take you on a journey through the vibrant tastes
+          we&lsquo;re here to take you on a journey through the vibrant tastes
           of Korea.
         </p>
         <div className="w-fit">
@@ -122,7 +122,7 @@ const MeatFish = () => {
               </a>
               <div className="mt-4">
                 <h2 className="text-gray-900 title-font text-lg font-medium">
-                  Pig's Feet
+                  Pig&lsquo;s Feet
                 </h2>
                 <p className="mt-1">$21.15</p>
               </div>
