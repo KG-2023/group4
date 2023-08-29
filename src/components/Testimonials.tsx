@@ -7,7 +7,7 @@ const Testimonials = () => {
     <section className="bg-white dark:bg-gray-900">
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
         <div className="mx-auto max-w-screen-sm">
-          <h2 className="mb-4 text-6xl md:text-4xl font-bold text-gray-900 dark:text-white">
+          <h2 className="mb-4 text-4xl md:text-4xl font-bold text-gray-900 dark:text-white">
             Testimonials
           </h2>
           <p className="mb-8 font-light text-2xl text-gray-700 lg:mb-16 sm:text-xl dark:text-gray-400">

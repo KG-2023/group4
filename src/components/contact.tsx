@@ -1,4 +1,15 @@
+"use client";
+
 import React from "react";
+import dynamic from "next/dynamic";
+import MapBox from "../components/mapbox";
+
+const DynamicGoogleMapComponent = dynamic(
+  () => import("../components/mapbox"),
+  {
+    ssr: false,
+  }
+);
 
 const Contact = () => {
   return (
@@ -75,6 +86,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
+          <MapBox />
         </div>
       </div>
     </section>
